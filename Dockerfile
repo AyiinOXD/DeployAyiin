@@ -3,7 +3,7 @@
 #Dockerfile for: Ayiin-Userbot
 #=========× AyiinXd ×=========#
 
-FROM ayiinoxd/ayiin-userbot:buster
+FROM ayiinxd/ayiin-userbot:buster
 
 RUN git clone -b Ayiin-Userbot https://github.com/Ayiinoxd/Ayiin-Userbot /home/ayiinuserbot/ \
     && chmod 777 /home/ayiinuserbot \
